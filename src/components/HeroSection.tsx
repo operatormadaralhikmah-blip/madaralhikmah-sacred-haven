@@ -36,7 +36,7 @@ const HeroSection = () => {
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ ...springConfig, delay: 0.5 }} className="flex flex-wrap gap-3 mb-8">
-            {[{ label: "NSM", value: "131233260017" }, { label: "Peminatan", value: "Agama · IPA · IPS" }].map((item) => (
+            {[{ label: "NPSN", value: "70060345" }, { label: "NSM", value: "131233260017" }, { label: "Peminatan", value: "Agama · IPA · IPS" }].map((item) => (
               <div key={item.label} className="bg-navy-foreground/5 border border-navy-foreground/10 px-3 py-1.5 rounded text-xs text-navy-foreground/50 font-medium">
                 <span className="text-gold-light font-bold">{item.label}:</span> {item.value}
               </div>

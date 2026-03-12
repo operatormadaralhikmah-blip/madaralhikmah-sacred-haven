@@ -4,25 +4,26 @@ const spring = { type: "spring" as const, stiffness: 150, damping: 20 };
 
 const teachers = [
   { name: "Naeli Zakiya, S.Pd.", mapel: "Bahasa Arab", univ: "S1 UIN Sunan Kalijaga", initials: "NZ" },
-  { name: "Muthia Uzlifa, S.Ag., M.A", mapel: "Al Quran Hadis, BTQ", univ: "S2 UIN Sunan Kalijaga", initials: "MU" },
-  { name: "Faiz Al Faruqi, L.c.", mapel: "Aqidah Akhlak, Fiqih", univ: "S1 Al Azhar Kairo", initials: "FA" },
-  { name: "M. Charist Arrosyid, S.Pdi.", mapel: "SKI", univ: "S1 UIN KH AWP", initials: "MC" },
-  { name: "M. Fahmi Khatami, S.Pd.", mapel: "Koding & AI", univ: "S1 UIN Syarif Hidayatullah", initials: "MF" },
+  { name: "Muthia Uzlifa, S.Ag., M.A.", mapel: "Al Qur'an Hadis, BTQ", univ: "S2 UIN Sunan Kalijaga", initials: "MU" },
+  { name: "Faiz Al Faruqi, Lc.", mapel: "Aqidah Akhlak, Fiqih", univ: "S1 Al Azhar Kairo", initials: "FA" },
+  { name: "M. Charits Arrosyid, S.Pd.I.", mapel: "SKI", univ: "S1 UIN KH Abdurrahman Wahid", initials: "MC" },
+  { name: "M. Fahmi Khatami, S.Pd.", mapel: "Koding & Kecerdasan Artifisial", univ: "S1 UIN Syarif Hidayatullah", initials: "MF" },
   { name: "M. Arifurrahman, M.Hum.", mapel: "Adabul Ilmi", univ: "S2 UIN Sunan Kalijaga", initials: "MR" },
-  { name: "Mizan Ikhsani, S.Pd.", mapel: "PJOK", univ: "S1 Pend. Olahraga", initials: "MI" },
-  { name: "Amaliya Sita P., M.Si.", mapel: "Kimia", univ: "S2 ITB", initials: "AS" },
-  { name: "Nilna Fauziyah, S.Pd.", mapel: "Ekonomi", univ: "S1 UNES", initials: "NF" },
-  { name: "Abdul Karim, M.Pd.", mapel: "Fisika", univ: "S2 UNES", initials: "AK" },
-  { name: "Deviana Riskiyah, S.Pd.", mapel: "Matematika", univ: "S1 UNES", initials: "DR" },
-  { name: "Moh. Yusuf Bahtiar, S.Kom.", mapel: "Informatika, Geografi", univ: "S1 STIK Widya Pratama", initials: "MY" },
-  { name: "Sami Lestari, S.Sn.", mapel: "Seni Budaya", univ: "S1 ISI Surakarta", initials: "SL" },
-  { name: "Shofia Rizky, S.Pd.", mapel: "Sejarah", univ: "S1 UNES", initials: "SR" },
-  { name: "Hilda Sifalia N., S.Pd.", mapel: "Biologi", univ: "S1 UIN Walisongo", initials: "HS" },
-  { name: "Suci Safitri, S.Sos.", mapel: "Sosiologi", univ: "S1 UIN Walisongo", initials: "SS" },
-  { name: "Maya Amelia, S.Pd.", mapel: "Bahasa Inggris", univ: "S1 UIN KH AWP", initials: "MA" },
-  { name: "Ahmad Alfain Dz., S.Sos.", mapel: "Pend. Pancasila", univ: "S1 UIN KH AWP", initials: "AA" },
-  { name: "Nur Hasanah, S.Pd.", mapel: "Bahasa Indonesia", univ: "S1 IKIP PGRI Semarang", initials: "NH" },
+  { name: "Mizan Ikhsani, S.Pd.", mapel: "PJOK", univ: "S1 Pendidikan Olahraga", initials: "MI" },
+  { name: "Amaliya Sita Permatasari, M.Si.", mapel: "Kimia", univ: "S2 Kimia ITB", initials: "AS" },
+  { name: "Nilna Fauziyah, S.Pd.", mapel: "Ekonomi", univ: "S1 Pend. Ekonomi UNES", initials: "NF" },
+  { name: "Abdul Karim, M.Pd.", mapel: "Fisika", univ: "S2 Pend. Fisika UNES", initials: "AK" },
+  { name: "Deviana Riskiyah, S.Pd.", mapel: "Matematika", univ: "S1 Pend. Matematika UNES", initials: "DR" },
+  { name: "Moh. Yusuf Bahtiar, S.Kom.", mapel: "Informatika, Geografi", univ: "S1 Teknik Informatika STIK Widya Pratama", initials: "MY" },
+  { name: "Sami Lestari, S.Sn.", mapel: "Seni Budaya", univ: "S1 Seni Tari ISI Surakarta", initials: "SL" },
+  { name: "Shofia Rizky, S.Pd.", mapel: "Sejarah", univ: "S1 Pend. Sejarah UNES", initials: "SR" },
+  { name: "Hilda Sifalia Nurlatifah, S.Pd.", mapel: "Biologi", univ: "S1 Pend. Biologi UIN Walisongo", initials: "HS" },
+  { name: "Suci Safitri, S.Sos.", mapel: "Sosiologi", univ: "S1 Sosiologi UIN Walisongo", initials: "SS" },
+  { name: "Maya Amelia, S.Pd.", mapel: "Bahasa Inggris", univ: "S1 Pend. Bahasa Inggris UIN KH AWP", initials: "MA" },
+  { name: "Ahmad Alfain Dzulqarnain, S.Sos.", mapel: "Pendidikan Pancasila", univ: "S1 Komunikasi Penyiaran Islam UIN KH AWP", initials: "AA" },
+  { name: "Nur Hasanah, S.Pd.", mapel: "Bahasa Indonesia", univ: "S1 Pend. Bahasa Indonesia IKIP PGRI Semarang", initials: "NH" },
 ];
+
 
 const TeachersSection = () => {
   return (
