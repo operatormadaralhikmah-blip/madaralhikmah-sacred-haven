@@ -53,7 +53,7 @@ const HeroSection = () => {
           </motion.div>
 
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.8, duration: 0.6 }} className="flex gap-8 mt-12 pt-8 border-t border-navy-foreground/5">
-            {[{ num: "3", label: "Peminatan" }, { num: "17", label: "Tenaga Pendidik" }, { num: "30", label: "Target Juz" }].map((stat) => (
+            {[{ num: "3", label: "Peminatan" }, { num: "19", label: "Tenaga Pendidik" }, { num: "30", label: "Target Juz" }].map((stat) => (
               <div key={stat.label}>
                 <div className="font-display text-3xl font-bold text-gold-light leading-none">{stat.num}</div>
                 <div className="text-[0.65rem] text-navy-foreground/35 uppercase tracking-[1.5px] mt-1">{stat.label}</div>
