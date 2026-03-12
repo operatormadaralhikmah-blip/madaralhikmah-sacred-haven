@@ -25,7 +25,7 @@ const AboutSection = () => {
               MA Dar Al Hikmah Pekalongan berada di bawah naungan Yayasan Al-Khikmah Rembun, berlokasi di lingkungan Pondok Pesantren Al Hikmah. Kami menerapkan Kurikulum Merdeka (IKM) Fase E yang dipadukan dengan keunggulan pendidikan pesantren, menciptakan lingkungan belajar yang holistik dan berkarakter.
             </p>
             <div className="space-y-3">
-              {[["Yayasan", "Al-Khikmah Rembun"], ["NSM", "131233260017"], ["Kepala Madrasah", "Naeli Zakiya, S.Pd."], ["Kurikulum", "Merdeka (IKM) Fase E"], ["Alamat", "Jl. Raya Rembun, Siwalan, Pekalongan"]].map(([key, val]) => (
+              {[["Yayasan", "Al-Khikmah Rembun"], ["NPSN", "70060345"], ["NSM", "131233260017"], ["Kepala Madrasah", "Naeli Zakiya, S.Pd."], ["Kurikulum", "Kurikulum Merdeka"], ["Alamat", "Jl. Raya Rembun, Siwalan, Pekalongan"]].map(([key, val]) => (
                 <div key={key} className="flex text-sm border-b border-border/50 pb-2">
                   <span className="w-[40%] text-muted-foreground font-medium">{key}</span>
                   <span className="font-semibold text-foreground">{val}</span>
