@@ -9,8 +9,8 @@ const HeroSection = () => {
   return (
     <section id="beranda" className="relative min-h-svh flex items-center overflow-hidden bg-navy">
       <div className="absolute inset-0">
-        <img src={HERO_IMG} alt="MA Dar Al Hikmah" className="w-full h-full object-cover opacity-25" loading="eager" />
-        <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/90 to-navy/60" />
+        <img src={HERO_IMG} alt="MA Dar Al Hikmah" className="w-full h-full object-cover opacity-40" loading="eager" />
+        <div className="absolute inset-0 bg-gradient-to-r from-navy/80 via-navy/70 to-navy/40" />
       </div>
       <img src={patternImg} alt="" className="absolute right-[-5%] top-[10%] w-[400px] h-[400px] opacity-[0.04] animate-spin-slow pointer-events-none" />
 
