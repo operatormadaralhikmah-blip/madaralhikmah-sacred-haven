@@ -22,7 +22,7 @@ const PPDBSection = () => {
           </div>
           <div className="flex flex-col sm:flex-row md:flex-col gap-3 relative z-10">
             <a href="https://bit.ly/PPDBM-MADARALHIKMAH" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-gold to-gold-light text-navy px-6 py-3 rounded-lg font-bold text-sm text-center shadow-warm hover:shadow-hover hover:scale-[1.03] active:scale-[0.98] transition-all duration-300 transition-elegant whitespace-nowrap">📝 Daftar Online</a>
-            <a href="https://wa.me/6085155441937" target="_blank" rel="noopener noreferrer" className="border-2 border-primary-foreground/30 text-primary-foreground px-6 py-3 rounded-lg font-semibold text-sm text-center hover:border-primary-foreground hover:bg-primary-foreground/5 transition-all duration-300 transition-elegant whitespace-nowrap">💬 Tanya via WA</a>
+            <a href="https://wa.me/6285155441937" target="_blank" rel="noopener noreferrer" className="border-2 border-primary-foreground/30 text-primary-foreground px-6 py-3 rounded-lg font-semibold text-sm text-center hover:border-primary-foreground hover:bg-primary-foreground/5 transition-all duration-300 transition-elegant whitespace-nowrap">💬 Tanya via WA</a>
           </div>
         </motion.div>
 
@@ -30,7 +30,7 @@ const PPDBSection = () => {
           {([
             { icon: ClipboardList, title: "Syarat Pendaftaran", items: ["Fotocopy akta kelahiran", "Fotocopy kartu keluarga", "Fotocopy Ijazah / SKL", "Pas foto merah 3×4 (5 lembar)", "Biaya pendaftaran Rp 50.000", "Tes seleksi & wawancara", "Biaya daftar ulang Rp 525.000"], highlight: false },
             { icon: Building2, title: "Fasilitas", items: ["Kelas dengan akses WiFi", "Perpustakaan", "Lab Komputer", "Lab IPA", "Lapangan olahraga", "Ruang UKS"], highlight: false },
-            { icon: Trophy, title: "Keistimewaan", items: ["GRATIS biaya daftar 50 pertama", "Beasiswa siswa berprestasi", "Beasiswa penghafal Al-Qur'an", "Target hafal 30 Juz", "Penguasaan Kitab Kuning", "Bahasa Arab & Inggris aktif"], highlight: true },
+            { icon: Trophy, title: "Keistimewaan", items: ["GRATIS biaya daftar 50 pertama", "Beasiswa siswa berprestasi", "Beasiswa penghafal Al-Qur'an", "Tahfidzul Qur'an", "Penguasaan Kitab Kuning", "Penguasaan Bahasa Asing"], highlight: true },
           ] as const).map((box, i) => {
             const Icon = box.icon;
             return (

@@ -25,10 +25,10 @@ const AboutSection = () => {
               MA Dar Al Hikmah Pekalongan berada di bawah naungan Yayasan Al-Khikmah Rembun, berlokasi di lingkungan Pondok Pesantren Al Hikmah. Kami menerapkan Kurikulum Merdeka (IKM) Fase E yang dipadukan dengan keunggulan pendidikan pesantren, menciptakan lingkungan belajar yang holistik dan berkarakter.
             </p>
             <div className="space-y-3">
-              {[["Yayasan", "Al-Khikmah Rembun"], ["NPSN", "70060345"], ["NSM", "131233260017"], ["Kepala Madrasah", "Naeli Zakiya, S.Pd."], ["Kurikulum", "Kurikulum Merdeka"], ["Alamat", "Jl. Raya Rembun, Siwalan, Pekalongan"]].map(([key, val]) => (
-                <div key={key} className="flex text-sm border-b border-border/50 pb-2">
-                  <span className="w-[40%] text-muted-foreground font-medium">{key}</span>
-                  <span className="font-semibold text-foreground">{val}</span>
+              {[["Yayasan", "Al-Khikmah Rembun"], ["NPSN", "70060345"], ["NSM", "131233260017"], ["Kepala Madrasah", "Naeli Zakiya, S.Pd."], ["Kurikulum", "Kurikulum Merdeka"], ["Alamat", "Jl. Raya Rembun Kauman RT 02 RW 02, Kec. Siwalan, Kab. Pekalongan 51154"]].map(([key, val]) => (
+                <div key={key} className="flex text-sm border-b border-border/50 pb-2 gap-2">
+                  <span className="w-[42%] shrink-0 text-muted-foreground font-medium">{key}</span>
+                  <span className="font-semibold text-foreground text-right sm:text-left">{val}</span>
                 </div>
               ))}
             </div>

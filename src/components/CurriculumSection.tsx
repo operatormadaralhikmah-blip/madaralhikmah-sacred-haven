@@ -39,7 +39,7 @@ const CurriculumSection = () => {
           <span className="text-[0.65rem] font-bold tracking-[3px] uppercase text-gold-light mb-3 block">Akademik</span>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-navy-foreground leading-tight mb-3">Kurikulum <em className="italic text-gold-light">Merdeka</em></h2>
           <div className="w-11 h-[3px] bg-gradient-to-r from-gold to-gold-light rounded-full mb-4" />
-          <p className="text-navy-foreground/40 text-sm max-w-lg">Implementasi Kurikulum Merdeka (IKM) Fase E, Kelas X — Tahun Ajaran 2025/2026</p>
+          <p className="text-navy-foreground/40 text-sm max-w-lg">Implementasi Kurikulum Merdeka (IKM) Tahun Ajaran 2025/2026</p>
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

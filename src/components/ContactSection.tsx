@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Instagram, Globe } from "lucide-react";
+import { MapPin, Phone, Mail, Instagram, Globe, Facebook, Music2 } from "lucide-react";
 import { useState } from "react";
 
 const spring = { type: "spring" as const, stiffness: 150, damping: 20 };
@@ -9,6 +9,8 @@ const contactInfo = [
   { icon: Phone, label: "Telepon / WhatsApp", links: [{ text: "+62 857-0217-1005 (Madrasah)", href: "https://wa.me/6285702171005" }, { text: "+62 851-5544-1937 (Ustadz Alfain)", href: "https://wa.me/6285155441937" }] },
   { icon: Mail, label: "Email", links: [{ text: "madaralhimah@gmail.com", href: "mailto:madaralhimah@gmail.com" }] },
   { icon: Instagram, label: "Instagram", links: [{ text: "@madaralhikmah", href: "https://instagram.com/madaralhikmah" }] },
+  { icon: Facebook, label: "Facebook", links: [{ text: "MA Dar Al Hikmah", href: "https://facebook.com/MADarAlHikmah" }] },
+  { icon: Music2, label: "TikTok", links: [{ text: "@madaralhikmah", href: "https://tiktok.com/@madaralhikmah" }] },
   { icon: Globe, label: "Pendaftaran Online", links: [{ text: "bit.ly/PPDBM-MADARALHIKMAH", href: "https://bit.ly/PPDBM-MADARALHIKMAH" }] },
 ];
 
@@ -69,7 +71,7 @@ const ContactSection = () => {
               ))}
               <div>
                 <label className="block text-[0.72rem] font-semibold text-navy-foreground/50 uppercase tracking-wide mb-2">Keperluan</label>
-                <select value={form.keperluan} onChange={(e) => setForm({ ...form, keperluan: e.target.value })} className="w-full bg-navy-foreground/5 border border-navy-foreground/10 rounded-lg px-4 py-3 text-sm text-navy-foreground focus:border-gold-light outline-none transition-colors">
+                <select value={form.keperluan} onChange={(e) => setForm({ ...form, keperluan: e.target.value })} className="w-full bg-navy/80 border border-navy-foreground/10 rounded-lg px-4 py-3 text-sm text-navy-foreground focus:border-gold-light outline-none transition-colors [&>option]:bg-[#0f2350] [&>option]:text-white">
                   <option value="">Pilih keperluan...</option>
                   <option>Informasi PPDB</option>
                   <option>Informasi Beasiswa</option>
