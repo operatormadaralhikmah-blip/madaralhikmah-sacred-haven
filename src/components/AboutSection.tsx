@@ -22,13 +22,13 @@ const AboutSection = () => {
             </h2>
             <div className="w-11 h-[3px] bg-gradient-to-r from-gold to-gold-light rounded-full mb-6" />
             <p className="text-muted-foreground text-sm leading-[1.8] mb-8">
-              MA Dar Al Hikmah Pekalongan berada di bawah naungan Yayasan Al-Khikmah Rembun, berlokasi di lingkungan Pondok Pesantren Al Hikmah. Kami menerapkan Kurikulum Merdeka (IKM) Fase E yang dipadukan dengan keunggulan pendidikan pesantren, menciptakan lingkungan belajar yang holistik dan berkarakter.
+              MA Dar Al Hikmah Pekalongan berada di bawah naungan Yayasan Al-Khikmah Rembun, berlokasi di lingkungan Pondok Pesantren Al Hikmah. Kami menerapkan Implementasi Kurikulum Merdeka (IKM) yang dipadukan dengan keunggulan pendidikan pesantren, menciptakan lingkungan belajar yang holistik dan berkarakter.
             </p>
             <div className="space-y-3">
               {[["Yayasan", "Al-Khikmah Rembun"], ["NPSN", "70060345"], ["NSM", "131233260017"], ["Kepala Madrasah", "Naeli Zakiya, S.Pd."], ["Kurikulum", "Kurikulum Merdeka"], ["Alamat", "Jl. Raya Rembun Kauman RT 02 RW 02, Kec. Siwalan, Kab. Pekalongan 51154"]].map(([key, val]) => (
                 <div key={key} className="flex text-sm border-b border-border/50 pb-2 gap-2">
                   <span className="w-[42%] shrink-0 text-muted-foreground font-medium">{key}</span>
-                  <span className="font-semibold text-foreground text-right sm:text-left">{val}</span>
+                  <span className="font-semibold text-foreground">{val}</span>
                 </div>
               ))}
             </div>
